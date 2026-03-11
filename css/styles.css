@@ -1,0 +1,120 @@
+/* Color Palette
+#000000 - color 1
+#FBFAEE - color 2
+#933DC9 - color 3
+#53118F - color 4
+*/
+
+/* Global styles 
+------------------------------------*/
+.column-narrow {
+  width: 30%; 
+  float: left; 
+  padding-right: 3%; 
+  min-height: 175px;
+}
+
+.column-wide {
+    width: 70%; 
+    float: left; 
+    min-height: 225px;
+}
+
+.wrapper {
+  width: 400px;
+}
+
+.box {
+  float: left;
+  width: 200px;
+  height: 100px;
+  /* padding: 20px; */
+  /* border: 1px solid black; */
+}
+
+.box1 {
+  background: lightblue;
+}
+
+.box2 {
+  background: lightgreen;
+}
+
+body {
+    background: #FBFAEE;
+    margin: 0;
+}
+
+.content-wrap {
+    max-width: 950px; 
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+.profile-img {
+	/*float: left;
+	margin-right: 30px;*/
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 36px;
+    color:#000000;
+    text-align: left;
+    font-family: "Lora", serif;
+    font-style: italic;
+    font-weight: 500;
+    margin: 0;
+}
+h2 {
+    font-size: 24px;
+    color:#000000;
+    text-align: left;
+    margin-top: 0;
+    margin: 0;
+}
+
+/* Header & Footer 
+------------------------------------*/
+.intro {
+    background: #53118F;
+    color: #FBFAEE;
+    padding: 0;
+    font-family: "Lora", serif;
+}
+
+.socials {
+    background: #000000;
+    color: #FBFAEE;
+    padding: 20px;
+    text-align: center;
+    font-family: "Lora", serif;
+}
+
+.h2 {
+    font-family: "Lora", serif;
+    color: #FBFAEE;
+    text-align: center;
+}
+
+.contact-info a {
+    padding: 10px; 
+    display: inline-block;
+}
+
+/* Work Experience
+------------------------------------*/
+.workExperience {
+    background: #933DC9;
+    padding: 20px;
+    font-family: "Delius", cursive;
+}
+
+/* Education
+------------------------------------*/
+.education {
+    background: #933DC9;
+    padding: 20px;
+    font-family: "Delius", cursive;
+
+}
