@@ -4,7 +4,35 @@
 #933DC9 - color 3
 #53118F - color 4
 */
+.nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #000000;
+  padding: 12px 16px;
+  text-align: center;
+  z-index: 1000;
+}
 
+.nav a{
+  color: #FBFAEE;
+  text-decoration: none;
+  margin: 0 12px;
+  display: inline-block;
+  font-family: "Lora", serif;
+}
+
+.nav a:hover{
+  text-decoration: underline;
+}
+
+/* push page content down so nav doesn't cover the top */
+body{
+  background: #FBFAEE;
+  margin: 0;
+  padding-top: 55px;
+}
 /* Global styles 
 ------------------------------------*/
 .column-narrow {
