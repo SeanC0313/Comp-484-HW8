@@ -130,6 +130,10 @@ h2 {
     display: inline-block;
 }
 
+.contact-info i{
+  margin-right: 8px;
+}
+
 /* Work Experience
 ------------------------------------*/
 .workExperience {
