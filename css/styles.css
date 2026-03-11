@@ -137,9 +137,17 @@ h2 {
 /* Work Experience
 ------------------------------------*/
 .workExperience {
-    background: #933DC9;
-    padding: 20px;
-    font-family: "Delius", cursive;
+  padding: 20px;
+  font-family: "Delius", cursive;
+  color:#FBFAEE;
+
+  background-image:
+    linear-gradient(rgba(0,0,0,0.55), rgba(147,61,201,0.55)),
+    url("../images/background.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* Education
